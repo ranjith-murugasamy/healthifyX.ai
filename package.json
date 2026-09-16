@@ -1,0 +1,15 @@
+{
+  "name": "healthifyx-ai",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/start-dev.cjs",
+    "start": "node scripts/start-dev.cjs",
+    "stop": "node scripts/stop-dev.cjs",
+    "build": "npm run build --prefix client",
+    "test": "node --check server/index.js && node --check scripts/start-dev.cjs && node --check scripts/stop-dev.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
