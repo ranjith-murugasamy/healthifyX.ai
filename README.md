@@ -198,3 +198,5 @@ Not currently. The picker reads a local file and reports its shape only. A futur
 ### How should model versions be tracked?
 
 Record a model ID, algorithm, training dataset hash, subject split manifest, preprocessing version, feature schema, code revision, metrics, and training date. Include the model ID in every prediction and alert event so results can be audited and reproduced.
+
+..
